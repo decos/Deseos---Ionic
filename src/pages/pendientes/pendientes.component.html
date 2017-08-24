@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>Lista de Pendientes</ion-title>
   </ion-navbar>
 </ion-header>
@@ -7,10 +7,47 @@
 <ion-content padding>
   <h1>Pendientes!!!</h1>
 
-  <ul>
+  <ion-card *ngFor="let lista of _listaDeseos.listas">
+    <ion-item>
+      BOTON!!!
+    </ion-item>
+
+    <h2>{{ lista.nombre }}</h2>
+    <ion-list>
+      <ion-item>
+        <!-- Advanced: explicity set the icon for each platform -->
+        <ion-icon ios="ios-arrow-dropright-circle"
+          md="md-arrow-dropright-circle"></ion-icon>Tetris
+      </ion-item>
+
+      <ion-item>
+        <!-- Advanced: explicity set the icon for each platform -->
+        <ion-icon ios="ios-arrow-dropright-circle"
+          md="md-arrow-dropright-circle"></ion-icon>Tetris
+      </ion-item>
+
+      <ion-item>
+        <!-- Advanced: explicity set the icon for each platform -->
+        <ion-icon ios="ios-arrow-dropright-circle"
+          md="md-arrow-dropright-circle"></ion-icon>Tetris
+      </ion-item>
+
+    </ion-list>
+
+  </ion-card>
+
+  <!--<ul>
     <li *ngFor="let lista of _listaDeseos.listas">
       {{ lista.nombre }}
     </li>
-  </ul>
+  </ul>-->
+
+
+  <ion-fab right bottom>
+    <button ion-fab color="primary">
+      <!-- Advanced: explicity set the icon for each platform -->
+      <ion-icon ios="ios-add" md="md-add"></ion-icon>
+    </button>
+  </ion-fab>
 
 </ion-content>

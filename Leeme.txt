@@ -80,7 +80,24 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		6. Modificar el servicio "ListaDeseosService"
 
 		7. Codear en la vista del componente "pendientes"
+
+
+	PANTALLA DE PENDIENTES - DISEÑO Y DOCUMENTACION DE IONIC
 		
+		- La mayor parte de las reglas de diseño se encuentra aquí:
+			https://ionicframework.com/docs/ > COMPONENTS
+
+		- Para el ejemplo se utilizara lo siguiente:
+			https://ionicframework.com/docs/components/#cards
+			https://ionicframework.com/docs/ionicons/
+			https://ionicframework.com/docs/components/#buttons
+			
+		- FABS (Floating Action Botton)
+			https://ionicframework.com/docs/components/#fabs
+			
+		1. Se modificaron los siguientes archivos:
+			src/pages/pendientes/pendientes.component.html
+			src/pages/tabs/tabs.html
 		
 		
 		

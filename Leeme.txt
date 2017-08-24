@@ -65,6 +65,26 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 			src/pages/tabs/tabs.html
 		
 
+	SERVICIO Y CLASES DE NUESTRA LISTA DE DESEOS
+		
+		1. Crear un directorio dentro de "app" llamado "services"
+
+		2. Crear un fichero llamado "lista-deseos.service.ts"
+
+		3. Importar el servicio en el fichero "app.module" y añadirlo a providers
+
+		4. Importar el servicio al componente "pendientes" y agregar un parametro de tipo "ListaDeseosService" en el constructor.
+
+		5. Crear las clases "listas" y "lista-item" dentro del directorio "clases"
+			
+		6. Modificar el servicio "ListaDeseosService"
+
+		7. Codear en la vista del componente "pendientes"
+		
+		
+		
+		
+
 
 
 

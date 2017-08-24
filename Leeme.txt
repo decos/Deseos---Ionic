@@ -17,6 +17,7 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		WEBVIEWS
 			Navegador web interno que permite mostrar contenido HTML
 			
+
 	CREANDO EL ESQUELETO DE NUESTRA APLICACION
 		
 		1. Actualizar Ionic
@@ -35,3 +36,36 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 			http://localhost:8100/ionic-lab
 			
 		4. Descargar la app "Ionic View App"
+
+
+	IONIC VIEW: PARA PROBAR EN NUESTRO DISPOSITIVO LA APLICACIÓN
+			
+		- Iniciar una nueva APP
+			ionic start --pro-id c0f29ad7
+			cd deseos
+		
+		- Conectar una app existente
+			ionic link --pro-id c0f29ad7
+
+	
+	COMPONENTES DE PENDIENTES, ESTRUCTURA Y TABS
+
+		1. Modificar el titulo y contenido del archivo
+			src/pages/home/home.html
+
+		2. Crear los directorios "pendientes" y "terminado" dentro de "pages"	
+		
+		3. Añadir a cada directorio los archivos ".ts" y ".html"
+
+		4. Importar el componente, y agregarlo en las "declaraciones" y "entryComponent"
+			src/app/app.module.ts
+					
+		5. ¿Como le digo a IONIC que quiero que "pendientes" sea mi primera pagina?
+			src/pages/tabs/tabs.ts
+			src/pages/tabs/tabs.html
+		
+
+
+
+
+

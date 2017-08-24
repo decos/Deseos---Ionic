@@ -1,0 +1,37 @@
+APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
+	
+	ACTUALIZACIONES DEL CLI DE IONIC
+		
+		1. Ejecutar el siguiente comando
+			ionic start myApp tabs
+			ionic login
+			ionic link
+				ESCOGER LA APLICACION SI YA EXISTE
+			ionic upload
+			
+	
+	¿ QUE ES IONIC 2?
+	
+		- APACHE CORDOBA nos va permitir convertir nuestro codigo en una aplicacion nativa en IOS, Android y Windows Phone.
+		
+		WEBVIEWS
+			Navegador web interno que permite mostrar contenido HTML
+			
+	CREANDO EL ESQUELETO DE NUESTRA APLICACION
+		
+		1. Actualizar Ionic
+			npm install -g ionic@latest
+		
+		2. Creamos una aplicación Ionic usando el template "tabs"
+			ionic start deseos tabs
+			
+		3. Empezara a  montar al gestor que estara pendiente de la compilacion
+			ionic serve
+		
+		- Se abrira en la web lo siguiente:
+			http://localhost:8100
+			
+		- Para abrir la vista multiplataforma
+			http://localhost:8100/ionic-lab
+			
+		4. Descargar la app "Ionic View App"

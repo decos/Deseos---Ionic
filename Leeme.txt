@@ -134,7 +134,14 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 			
 		4. Codear en la vista la llamada del metodo "agregar" al hacer clic en el boton o al presionar la tecla "enter"
 		
+	
+	TAREA: ELIMINACIÓN DEL LISTADO
+	
+		1. Agregar el evento click al boton eliminar
 		
+		2. Añadir el metodo "borrarIem" a la logica del componente
+		
+		3. Añadir un condicional en la etiqueta "ion-card" de la vista "agregar"
 	
 
 

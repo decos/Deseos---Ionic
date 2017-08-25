@@ -33,4 +33,8 @@ export class AgregarComponent implements OnInit {
 
   }
 
+  borrarItem( idx:number ){
+    this.items.splice(idx, 1)
+  }
+
 }

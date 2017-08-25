@@ -199,8 +199,39 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		
 		7. Codear la logica del componente "detalle" y después su vista.
 
-		8.
 
+	PANTALLA DE DETALLE Y SUS FUNCIONES
+
+		1. Importar "Lista" e "ListaItem" al componente "detalle"
+
+		Recursos:
+			https://ionicframework.com/docs/components/#card-header
+			https://ionicframework.com/docs/components/#floating-labels
+
+		2. Codear la vista detalle
+			src/pages/detalle/detalle.component.html
+
+		3. Codear la funcion actualizar de la logica del componente "detalle"
+			src/pages/detalle/detalle.component.ts
+
+		4. Ir al .css y crear una propiedad llamada ".tachado"
+
+		- Agregar la clase "tachado" si y solo si el item es "completado"
+		<h2 [class.tachado]="item.completado" >{{ item.nombre }}</h2>
+
+
+		5. Agregar un boton en la vista del componente "detalle"
+
+
+	
+
+		
+
+
+
+
+		
+	
 
 
 

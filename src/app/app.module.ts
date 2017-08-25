@@ -11,8 +11,12 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { PendientesComponent } from '../pages/pendientes/pendientes.component';
 //Import Terminados
 import { TerminadosComponent } from '../pages/terminados/terminados.component';
+//Import Agregar
+import { AgregarComponent } from '../pages/agregar/agregar.component';
 //Import Servicios
 import { ListaDeseosService } from './services/lista-deseos.service';
+//Import Pipe
+import { PlaceholderPipe } from './pipes/placeholder.pipe';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +29,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     //HomePage,
     TabsPage,
     PendientesComponent, //Added
-    TerminadosComponent  //Added
+    TerminadosComponent,  //Added
+    AgregarComponent, //Added
+    PlaceholderPipe //Added Pipe
   ],
   imports: [
     BrowserModule,
@@ -39,7 +45,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     //HomePage,
     TabsPage,
     PendientesComponent, //Added
-    TerminadosComponent  //Added
+    TerminadosComponent, //Added
+    AgregarComponent, //Added
   ],
   providers: [
     StatusBar,

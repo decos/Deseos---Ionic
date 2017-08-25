@@ -100,8 +100,27 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 			src/pages/tabs/tabs.html
 		
 		
+	NAVEGACION ENTRE PANTALLAS Y DISEÑO DE AGREGAR LISTA
 		
-
+		1. Añadir dentro de "pages" el directorio "agregar" con los sgtes ficheros:
+			src\pages\agregar\agregar.component.html
+			src\pages\agregar\agregar.component.ts
+			
+		2. Agregar el nuevo componente al fichero "app.module"
+		
+		3. Agregar el evento "irAgegar" al "fab button"
+		
+		4. Añadir la función "irAgegar" en la lógica del componente "pendientes"
+		
+		5. Codear la vista del componente "agregar"
+		
+			Recursos:
+				https://ionicframework.com/docs/components/#cards
+				https://ionicframework.com/docs/components/#inputs
+					Floating Labels
+				https://ionicframework.com/docs/components/#buttons
+				
+		6. Crear el pipe "PlaceholderPipe" y añadirlo en la vista del componente "agregar"
 
 
 

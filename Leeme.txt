@@ -144,4 +144,20 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		3. Añadir un condicional en la etiqueta "ion-card" de la vista "agregar"
 	
 
+	AGREGANDO AL SERVICIO, ALERTAS Y RETORNANDO A LA PANTALLA PRINCIPAL
+
+		1. Agregar el evento click al boton eliminar "Agregar Lista"
+			src/pages/agregar/agregar.component.html
+
+		2. Agegar la lógica del evento en el componente "agregar" (guardarLista)
+			src/pages/agregar/agregar.component.ts
+
+		- Importar el servicio y dos controladores (Nav y Alert)
+
+		Recursos:
+			https://ionicframework.com/docs/components/#alert
+
+		3. MOdificar la vista del componente "pendientes"
+			src/pages/pendientes/pendientes.component.html
+			
 

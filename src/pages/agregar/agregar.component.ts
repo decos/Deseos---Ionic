@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 //Import INDEX class
 import { Lista, ListaItem } from '../../app/clases/index';
+//Import Alert Controller, NavController
+import { AlertController, NavController } from 'ionic-angular';
+//Import Service
+import { ListaDeseosService } from '../../app/services/lista-deseos.service';
 
 @Component({
   selector: 'app-agregar',
@@ -9,13 +13,17 @@ import { Lista, ListaItem } from '../../app/clases/index';
 })
 export class AgregarComponent implements OnInit {
 
-  nombreLista:string;
+  nombreLista:string = "";
   nombreItem:string = "";
 
   //Alojar temporalmente nuestro items
   items:ListaItem[] = [];
 
-  constructor() {  }
+  constructor(
+    public alertCtrl:AlertController,
+    public navCtrl:NavController,
+    public _listaDeseos:ListaDeseosService
+  ) {  }
 
   ngOnInit() {}
 
@@ -35,6 +43,27 @@ export class AgregarComponent implements OnInit {
 
   borrarItem( idx:number ){
     this.items.splice(idx, 1)
+  }
+
+  guardarLista(){
+
+    if(this.nombreLista.length == 0){
+      let alert = this.alertCtrl.create({
+        title: 'Nombre de la lista',
+        subTitle: 'El nombre de la lista es necesario!',
+        buttons: ['OK']
+      });
+      alert.present();
+      return ;
+    }
+
+    let lista = new Lista(this.nombreLista);
+    lista.items = this.items;
+
+    this._listaDeseos.listas.push( lista );
+    //¿como regresar al navegador principal?
+    this.navCtrl.pop();
+
   }
 
 }

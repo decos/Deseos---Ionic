@@ -159,5 +159,22 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 
 		3. MOdificar la vista del componente "pendientes"
 			src/pages/pendientes/pendientes.component.html
+
+	
+	LocalStorage: ALMACENANDO LA INFORMACIÓN
+
+		- Pueden alojar data local en el navegador del cliente
+		- Anteriormente se hacia en COOKIES
+		- Al menos 5mb
+		- El local storage es por dominio, todas las paginas desde el mismo pueden almacenar y acceder a la data.
+		- Almacenar informacion que no sea sensible
+
+		1. Crear las siguientes funciones en nuestro servicio
+			actualizarData()
+			cargarData()
+			agregarLista()
+		
+		2. Consumir la funcion "agregarLista" desde el componente "agregar"
 			
+		- ¿COMO ELIMINAR EL LOCAL STORAGE?
 

@@ -223,10 +223,18 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		5. Agregar un boton en la vista del componente "detalle"
 
 
-	
-
+	CONFIRMACIÓN DE ELIMINACIÓN
 		
+		1. Importar el controlador "Alert" en el componente "detalle"
+			
+		2. Recursos:
+			https://ionicframework.com/docs/components/#alert-confirm
 
+		- Crear un metodo en la logica del componente detalle, el alert
+
+		3. Crear en el servicio un meotodo llamado "eliminarLista"
+
+		4.
 
 
 

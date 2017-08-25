@@ -177,4 +177,31 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		2. Consumir la funcion "agregarLista" desde el componente "agregar"
 			
 		- ¿COMO ELIMINAR EL LOCAL STORAGE?
+			Application > Local Storage > Delete "data"
+
+
+	PASAR PARÁMETROS ENTRE COMPONENTES Y COMPONENTE DE DETALLES
+
+		1. Modificar el codigo de la vista "pendientes" para que se vean los items de cada lista
+					
+		2. Agregar un nuevo estilo "text-center"
+			src/app/app.scss
+		
+		3. Crear el componente "detalle"
+			src/pages/detalle/detalle.component.ts
+			src/pages/detalle/detalle.component.html
+			
+		4. Importar el nuevo componente y agregarlo en declarations y entryComponents
+
+		5. Agregar los eventos "verDetalle(lista, i)" en la vista "pendientes"
+			
+		6. Codear el metodo "verDetalle" en la lógica del componente "pendientes"
+		
+		7. Codear la logica del componente "detalle" y después su vista.
+
+		8.
+
+
+
+
 

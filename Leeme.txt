@@ -123,5 +123,18 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		6. Crear el pipe "PlaceholderPipe" y añadirlo en la vista del componente "agregar"
 
 
+	FUNCIONALIDAD DE LA PANTALLA DE AGREGAR LISTA
+		
+		1. Codear la vista del componente "agregar"
+		
+		2. Crear la clase "index" 
+			src\app\clases\index.ts
+			
+		3. Codear la funcion "agregar" en el componente "agregar"
+			
+		4. Codear en la vista la llamada del metodo "agregar" al hacer clic en el boton o al presionar la tecla "enter"
+		
+		
+	
 
 

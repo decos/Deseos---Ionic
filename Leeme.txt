@@ -248,10 +248,28 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		2. Añadir el pipe en la vista de pendientes
 			<ion-card *ngFor="let lista of _listaDeseos.listas | pendientes; let i=index">
 			
-		3. 
+		- PIPES son puros
+		- Para que la data cambie instantaneamente se debera hacer lo sgte:
 		
+		3. Añadir el siguiente codigo en el pipe "pendientes"
+			@Pipe({
+			  name: 'pendientes',
+			  pure: false
+			})
+					
+		
+	PANTALLA DE LISTA TERMINADAS
 	
+		1. Copiar el codigo de la vista y la logica del componente "pendientes" en el componente "terminados" 
 
-
+		- Seria bueno que cuando no hay nada, te de un mensaje.
+		
+		2. Agregar el siguiente codigo en la vista pendientes y terminados
+		
+		Pendientes:
+			*ngIf="( _listaDeseos.listas | pendientes ).length === 0"
+			
+		Terminados
+			*ngIf="( _listaDeseos.listas | pendientes:true ).length === 0"
 
 

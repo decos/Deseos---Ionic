@@ -19,6 +19,8 @@ import { ListaDeseosService } from './services/lista-deseos.service';
 import { PlaceholderPipe } from './pipes/placeholder.pipe';
 //Import DetalleComponent
 import { DetalleComponent } from '../pages/detalle/detalle.component';
+//Import Pipe
+import { PendientesPipe } from './pipes/pendientes.pipe';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -30,11 +32,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     //ContactPage,
     //HomePage,
     TabsPage,
-    PendientesComponent, //Added
+    PendientesComponent,  //Added
     TerminadosComponent,  //Added
     AgregarComponent, //Added
     DetalleComponent, //Added
-    PlaceholderPipe //Added Pipe
+    PlaceholderPipe,  //Added Pipe
+    PendientesPipe    //Added Pipe
   ],
   imports: [
     BrowserModule,

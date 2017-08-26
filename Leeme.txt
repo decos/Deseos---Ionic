@@ -239,7 +239,16 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 		4. Modificar la funcion "actualizar" del componente "detalle"
 
 
-
+	PIPES IMPUROS
+	
+		- En angular 2 no existen los filtros como tal, lo que existen son los PIPES
+		
+		1. Crear el pipe "pendientes", importarlo en "app.modulo" y añadirlo en declarations
+		
+		2. Añadir el pipe en la vista de pendientes
+			<ion-card *ngFor="let lista of _listaDeseos.listas | pendientes; let i=index">
+			
+		3. 
 		
 	
 

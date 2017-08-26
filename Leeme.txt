@@ -234,7 +234,9 @@ APLICACIÓN #4: LISTA DE DESEOS - IONIC 2 APP
 
 		3. Crear en el servicio un meotodo llamado "eliminarLista"
 
-		4.
+		- Cuando se seleccionan todos los elementos de la lista, ya no aparesca en pendientes y deberia apareces en terminados
+		
+		4. Modificar la funcion "actualizar" del componente "detalle"
 
 
 
